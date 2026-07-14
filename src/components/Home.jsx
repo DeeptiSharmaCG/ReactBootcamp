@@ -12,7 +12,8 @@ function Home() {
       }
   return (
     <div>
-      <h1>Count: {count}</h1>
+      <h1>Counter App</h1>
+      <h2>{count}</h2>
       <button onClick={increment}>Increment</button>
       <button onClick={decrement}>Decrement</button>
     </div>
